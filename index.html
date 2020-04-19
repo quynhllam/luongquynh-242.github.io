@@ -2069,6 +2069,40 @@ $('.name-03').click(function() {
 
 
 
+//---------------VIEW---------------
+$('.view-button').click(function() {
+ let project_title = ($(this).prev().text())
+ console.log(project_title);
+  switch(project_title) {
+    case 'Mille Magazine':
+      window.open('https://www.behance.net/gallery/66912939/MILLE-Lifestyle-Magazine', '_blank');
+      break;
+    case 'GEO - The Astronomy':
+      window.open('https://www.behance.net/gallery/66913325/GEO-The-Astronomy', '_blank');
+      break;
+    case 'Annie':
+      window.open('https://www.behance.net/gallery/66913471/Annie', '_blank');
+      break;
+    case 'Katalon TestOps':
+      window.open('https://www.behance.net/gallery/95588413/Katalon-TestOps', '_blank');
+      break;
+    case 'Katalon 2019 Recap':
+      window.open('https://www.katalon.com/2019-recap/', '_blank');
+      break;
+    case 'Katalon Store':
+      window.open('https://codepen.io/luong-quynh/full/bGbLQdw', '_blank');
+      break;
+    case 'Katalon New Branding':
+      window.open('https://www.katalon.com/resources-center/blog/katalon-brand-identity-makeover/', '_blank');
+      break;
+    case 'Sprynkl 2020':
+      window.open('https://www.behance.net/gallery/95624799/Sprynkl', '_blank');
+      break;
+    default:
+      break;
+  }
+});
+
 
 
 });
