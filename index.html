@@ -77,7 +77,7 @@
             <div class="intro-content-01">
 
                 <!--Button-->
-                <a href="#contact_section" style="text-decoration:none; color:#FF90BC;">
+                <a href="#contact_section" style="text-decoration:none; color:#FF90BC;width:160px;">
                 <div class="contact-button" id="button">
                     <div class="hover-dot" style="left:36%"></div>
                     <div id="button-text" class="contact-text">contact me.</div>
@@ -248,19 +248,19 @@
         </div>
 
         <!--Project 01-->
-        <div class="pj-01">
+        <div id="project" class="pj-01">
             <div id="h3" class="pj-name name-01" attr-data-background="url(https://i.imgur.com/g8OT4qS.png) center/100%">Mille Magazine</div>
             <div class="number" style="line-height:40px">01</div>
         </div>
 
         <!--Project 02-->
-        <div class="pj-02">
+        <div id="project" class="pj-02">
             <div id="h3" class="pj-name name-01" attr-data-background="url(https://i.imgur.com/b3STCle.png) center/100%">GEO - The Astronomy</div>
             <div class="number" style="line-height:40px">02</div>
         </div>
 
         <!--Project 03-->
-        <div class="pj-03">
+        <div id="project" class="pj-03">
             <div id="h3" class="pj-name name-01" attr-data-background="url(https://i.imgur.com/eFBj8Og.png) center/100%">Annie</div>
             <div class="number" style="line-height:40px">03</div>
         </div>
@@ -329,7 +329,7 @@
         </div>
 
          <!--Project 04-->
-         <div class="pj-04">
+         <div id="project" class="pj-04">
             <div id="h3" class="pj-name name-02" attr-data-background="url(https://i.imgur.com/YLaK8TO.png) center/100%">Katalon New Branding</div>
             <div class="number" style="line-height:40px">04</div>
         </div>
@@ -379,7 +379,7 @@
         </div>
 
         <!--Project 01-->
-        <div class="pj-01" style="top:48px;">
+        <div id="project" class="pj-01" style="top:48px;">
             <div id="h3" class="pj-name name-03" attr-data-background="url(https://i.imgur.com/bzCHF8v.png) center/100%">Sprynkl 2020</div>
             <div class="number" style="line-height:40px">01</div>
         </div>
@@ -605,7 +605,7 @@
 
             <div id="contacts-media" class="mail">
                 <div class="contacts-icon" style="background:url(https://i.imgur.com/vJJNzqG.png) center/100%;"></div>
-                <a href="mailto:luongquynh.242@gmail.com" style="text-decoration:none; color:#FF90BC;">
+                <a href="mailto:luongquynh.242@gmail.com" style="text-decoration:none; color:#FF90BC; cursor:url(https://i.imgur.com/T95NlHN.png),auto;">
                     <div class="contacts-text" id="h2" style="font-weight:400">luongquynh.242@gmail.com</div>
                 </a>
             </div>
@@ -652,7 +652,7 @@
     html {
         scroll-behavior: smooth;
         overflow-anchor: none;
-        cursor: url(https://i.imgur.com/zWyRRBH.png), auto;
+        cursor: url(https://i.imgur.com/5MJhSsD.png), auto;
     }
 
     body {
@@ -689,6 +689,10 @@
     position: relative;
 }
 
+.navsec-01:hover {
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
+}
+
 .navsec-02 {
     width: 360px;
     height: 48px;
@@ -710,12 +714,15 @@
 
 #nav-text:hover {
     color: #CDFF00;
-    cursor: url(https://i.imgur.com/uDQN90t.png), auto;
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
 }
   
 .navsec-01:hover .self-logo {
   background: url(https://i.imgur.com/kNH6VzD.png) center/100% no-repeat;
-  cursor: url(https://i.imgur.com/uDQN90t.png), auto;
+  }
+
+  .navsec-01:hover .nav-hello {
+    color: #CDFF00;
   }
 
 .self-logo {
@@ -1105,7 +1112,7 @@
     }
 
 .contact-button {
-        width: 160px;
+    width: 160px;
         top: 0;  
         transition: ease all 0.8s;
         position: relative;
@@ -1176,7 +1183,7 @@
     }
   
   #intro-med-icon:hover {
-    cursor: url(https://i.imgur.com/uDQN90t.png), auto;
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
   }
 
     #intro-lag-icon {
@@ -1186,7 +1193,7 @@
   }
   
   #intro-lag-icon:hover {
-    cursor: url(https://i.imgur.com/uDQN90t.png), auto;
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
     }
 
     .fb {
@@ -1361,7 +1368,7 @@
 
     .skill-name:hover {
         color: #CDFF00;
-        cursor: url(https://i.imgur.com/hMmXGfJ.png), auto;
+        cursor: url(https://i.imgur.com/T95NlHN.png), auto;
     }
 
     .skill-name:hover  .arrow-down {
@@ -1415,14 +1422,6 @@
         width: 1200px;
         margin: 160px auto;
     }
-
-    #button {
-        height: 40px;
-    }
-  
-  #button:hover {
-    cursor: url(https://i.imgur.com/hMmXGfJ.png), auto;
-  }
 
     .exp-01 {
         height: 620px;
@@ -1620,10 +1619,6 @@
         opacity: 1;
     }
 
-    .view-button:hover { 
-        cursor: url(https://i.imgur.com/hMmXGfJ.png), auto;
-    }
-
     .view-text {
         font-weight: 800;
         text-align: left;
@@ -1758,6 +1753,10 @@
     line-height: 24px;
 }
 
+.insta-info:hover {
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
+}
+
 .insta-info:hover .insta-sml-icon {
     background: url(https://i.imgur.com/eKz1bA6.png) center/100%;
 }
@@ -1851,6 +1850,10 @@
         height: 24px;
         margin-bottom: 10px;
     }
+
+    .color-info:hover {
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
+  }
 
     .color-info:hover .color-code {
         opacity: 1 !important;
@@ -2011,6 +2014,9 @@
     background: url(https://i.imgur.com/dyBzsBX.png) center/100% no-repeat;
 }
 
+#outtro-sml-icon:hover {
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
+}
 
 
 /*---------CSS ID STYLING----------*/
@@ -2043,6 +2049,14 @@
         line-height: 20px;
     }
 
+    #button {
+        height: 40px;
+    }
+  
+  #button:hover {
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
+  }
+
     .hover-dot {
         width: 40px;
         height: 40px;
@@ -2053,6 +2067,10 @@
         position: absolute;
         left: 24px;
     }
+
+    #project:hover {
+    cursor: url(https://i.imgur.com/T95NlHN.png), auto;
+  }
 
 
 
@@ -2157,4 +2175,3 @@ $('.view-button').click(function() {
 
 });
 </script>
-    
